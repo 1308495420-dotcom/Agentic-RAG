@@ -1,0 +1,30 @@
+{
+  "description": "基于 default 知识库（13 chunks）手工标注的评估用测试集",
+  "version": "1.0",
+  "test_cases": [
+    {
+      "query": "什么是混合检索 hybrid search",
+      "expected_chunk_ids": ["6138dcfb_0007_2f385cc5"],
+      "expected_sources": ["complex_technical_doc.pdf"],
+      "reference_answer": "混合检索将稠密向量检索与稀疏 BM25 关键词匹配结合，两路结果通过 RRF 融合后由 cross-encoder 重排序。"
+    },
+    {
+      "query": "chunking 策略怎么配置",
+      "expected_chunk_ids": ["6138dcfb_0004_96fa5486", "6138dcfb_0005_5f4b48c6"],
+      "expected_sources": ["complex_technical_doc.pdf"],
+      "reference_answer": "chunk_size 默认 512 字符，chunk_overlap 128，分隔符按递归优先级分割。"
+    },
+    {
+      "query": "embedding 模型用哪个",
+      "expected_chunk_ids": ["6138dcfb_0006_8189fc1c"],
+      "expected_sources": ["complex_technical_doc.pdf"],
+      "reference_answer": "支持 OpenAI Ada-002（1536维）、Azure OpenAI、Ollama 本地模型（384-768维）、Sentence-BERT（384维）。"
+    },
+    {
+      "query": "RAG 系统架构分几层",
+      "expected_chunk_ids": ["6138dcfb_0002_7cdbc143", "6138dcfb_0003_43360bbf"],
+      "expected_sources": ["complex_technical_doc.pdf"],
+      "reference_answer": "分层架构：数据摄入→分块引擎→嵌入服务→向量存储→重排序器→查询引擎。"
+    }
+  ]
+}
