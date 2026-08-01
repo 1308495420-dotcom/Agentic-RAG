@@ -1,0 +1,25 @@
+{
+  "description": "消融实验测试集——覆盖简单/中等/困难三个难度",
+  "test_cases": [
+    {"query": "纳米压印光刻的基本原理", "difficulty": "easy"},
+    {"query": "等离子体刻蚀的工作原理是什么", "difficulty": "easy"},
+    {"query": "原子层沉积技术 ALD 的原理", "difficulty": "easy"},
+    {"query": "化学机械抛光 CMP 的作用", "difficulty": "easy"},
+    {"query": "极紫外光刻 EUV 的光源是什么", "difficulty": "easy"},
+    {"query": "薄膜晶体管在柔性显示中的应用要求", "difficulty": "easy"},
+    {"query": "FinFET 和平面晶体管有什么区别", "difficulty": "medium"},
+    {"query": "光刻胶的对比度和分辨率有什么关系", "difficulty": "medium"},
+    {"query": "晶圆级封装比传统封装好在哪", "difficulty": "medium"},
+    {"query": "应变硅技术怎么提高载流子迁移率", "difficulty": "medium"},
+    {"query": "自对准双重成像 SADP 的工艺流程", "difficulty": "medium"},
+    {"query": "高k金属栅 HKMG 为什么取代多晶硅栅", "difficulty": "medium"},
+    {"query": "定向自组装和传统光刻在成本上怎么比较", "difficulty": "hard"},
+    {"query": "FinFET 在 3nm 以下为什么被 GAAFET 取代", "difficulty": "hard"},
+    {"query": "EUV 光刻胶需要满足哪些特殊要求才能量产", "difficulty": "hard"},
+    {"query": "碳纳米管和石墨烯在互连材料中谁更有前景", "difficulty": "hard"},
+    {"query": "量子隧穿效应在 2nm 以下工艺中怎么控制", "difficulty": "hard"},
+    {"query": "芯片上怎么做出宽度只有几纳米的线条", "difficulty": "hard"},
+    {"query": "柔性屏幕弯折时晶体管怎么保持性能稳定", "difficulty": "hard"},
+    {"query": "为什么说摩尔定律死了但先进封装能续命", "difficulty": "hard"}
+  ]
+}

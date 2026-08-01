@@ -1,0 +1,20 @@
+{
+  "description": "15题真实评估测试集（简单5/中等5/困难5）",
+  "test_cases": [
+    {"query": "纳米压印光刻技术的基本原理", "difficulty": "easy", "expected_chunk_ids": ["8fc22ad6_0000_303f3a7a"]},
+    {"query": "原子层沉积 ALD 原理", "difficulty": "easy", "expected_chunk_ids": ["fa8b90fe_0000_2e90f7ab"]},
+    {"query": "化学机械抛光 CMP 的作用", "difficulty": "easy", "expected_chunk_ids": ["04d8abf5_0000_8c655770"]},
+    {"query": "极紫外光刻 EUV 光源", "difficulty": "easy", "expected_chunk_ids": ["76b770d9_0000_c3ad33e6"]},
+    {"query": "等离子体刻蚀的工作原理", "difficulty": "easy", "expected_chunk_ids": ["cde5a839_0000_2f915e17"]},
+    {"query": "FinFET 和平面晶体管的区别", "difficulty": "medium", "expected_chunk_ids": ["68f5ef2b_0000_7ca46de1", "b3bddc3d_0000_541bf8fd"]},
+    {"query": "晶圆级封装比传统封装好在哪", "difficulty": "medium", "expected_chunk_ids": ["6c32e962_0000_e9f8de05", "7a587e91_0000_ca8352e4"]},
+    {"query": "应变硅技术怎么提高载流子迁移率", "difficulty": "medium", "expected_chunk_ids": ["9002bd03_0000_e3e11187"]},
+    {"query": "自对准双重成像 SADP 工艺流程", "difficulty": "medium", "expected_chunk_ids": ["f6404e33_0000_064b5b5c"]},
+    {"query": "光刻胶对比度和分辨率的关系", "difficulty": "medium", "expected_chunk_ids": ["59e23fb4_0000_55c8b14f"]},
+    {"query": "量子隧穿效应在 2nm 工艺中怎么控制", "difficulty": "hard", "expected_chunk_ids": []},
+    {"query": "碳纳米管和石墨烯在互连中谁更有前景", "difficulty": "hard", "expected_chunk_ids": ["bb1f0683_0000_34679c11"]},
+    {"query": "柔性屏幕弯折时晶体管怎么保持性能", "difficulty": "hard", "expected_chunk_ids": ["9af223f1_0000_fc94f1b6"]},
+    {"query": "为什么说摩尔定律死了但先进封装能续命", "difficulty": "hard", "expected_chunk_ids": []},
+    {"query": "芯片上怎么做出宽度只有几纳米的线条", "difficulty": "hard", "expected_chunk_ids": ["c35b691f_0000_35320ac4"]}
+  ]
+}

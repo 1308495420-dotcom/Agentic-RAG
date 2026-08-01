@@ -1,36 +1,31 @@
 {
-  "description": "半导体工艺知识库评估测试集（21 MD文件，40 chunks）",
-  "version": "1.0",
+  "description": "半导体工艺知识库评估测试集（DashScope 1024d）",
+  "version": "2.0",
   "test_cases": [
     {
       "query": "晶圆级封装的成本和优势",
-      "expected_chunk_ids": ["7a587e91_0001_bc362cc5", "7a587e91_0000_2e3e0a67"],
-      "expected_sources": [],
-      "reference_answer": "WLP在晶圆级别同时处理芯片，设备利用率提升3-5倍，单颗封装成本降低30-40%，I/O密度达200+，生产周期缩短至3-5天。"
+      "expected_chunk_ids": ["7a587e91_0000_ca8352e4", "7a587e91_0001_ddbb8096"],
+      "reference_answer": "WLP在晶圆级别同时处理芯片，设备利用率提升3-5倍，单颗封装成本降低30-40%。"
     },
     {
       "query": "FinFET晶体管的原理和优化",
-      "expected_chunk_ids": ["b3bddc3d_0000_9fb018ef", "b3bddc3d_0001_aab86d0a"],
-      "expected_sources": [],
-      "reference_answer": "FinFET是三维晶体管结构，鳍片三面被栅极包裹，通过提高驱动电流和降低漏电来改善芯片性能。3nm以下向GAA结构演进。"
+      "expected_chunk_ids": ["68f5ef2b_0000_7ca46de1", "b3bddc3d_0000_541bf8fd", "68f5ef2b_0001_e7465b4e"],
+      "reference_answer": "FinFET是三维晶体管结构，鳍片三面被栅极包裹，通过提高驱动电流和降低漏电来改善芯片性能。"
     },
     {
       "query": "多重曝光技术 SADP SAQP",
-      "expected_chunk_ids": ["98a99383_0000_83e1674b", "98a99383_0001_5aa07170"],
-      "expected_sources": [],
-      "reference_answer": "多重曝光技术（MPT）突破光刻分辨率极限，SADP通过芯轴+侧墙实现图形倍增，SAQP在此基础上再次倍增，用于FinFET和先进节点。"
+      "expected_chunk_ids": ["98a99383_0001_fb4df39e", "98a99383_0000_386898cc"],
+      "reference_answer": "多重曝光技术突破光刻分辨率极限，SADP通过芯轴+侧墙实现图形倍增。"
     },
     {
       "query": "等离子体处理半导体材料",
-      "expected_chunk_ids": [],
-      "expected_sources": [],
-      "reference_answer": "等离子体处理通过高能离子和活性基团改性半导体表面，改善薄膜附着力和刻蚀选择性。"
+      "expected_chunk_ids": ["192446b0_0000_9eb49df4", "192446b0_0001_2e78d849"],
+      "reference_answer": "等离子体处理通过高能离子和活性基团改性半导体表面。"
     },
     {
       "query": "DSA定向自组装技术",
-      "expected_chunk_ids": [],
-      "expected_sources": [],
-      "reference_answer": "DSA利用嵌段共聚物自发形成纳米级有序结构，结合引导模板实现精确定位，面向3nm节点应用。"
+      "expected_chunk_ids": ["e6069cf7_0000_64605145", "f199f8ac_0000_8489201c"],
+      "reference_answer": "DSA利用嵌段共聚物自发形成纳米级有序结构，结合引导模板实现精确定位。"
     }
   ]
 }

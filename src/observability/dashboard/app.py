@@ -9,10 +9,19 @@ a placeholder message.
 
 from __future__ import annotations
 
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
+
 import streamlit as st
 
 
 # ── Page definitions ─────────────────────────────────────────────────
+
+def _page_chat() -> None:
+    from src.observability.dashboard.pages.chat import render
+    render()
+
 
 def _page_overview() -> None:
     from src.observability.dashboard.pages.overview import render
@@ -47,7 +56,8 @@ def _page_evaluation_panel() -> None:
 # ── Navigation ───────────────────────────────────────────────────────
 
 pages = [
-    st.Page(_page_overview, title="Overview", icon="📊", default=True),
+    st.Page(_page_chat, title="Chat", icon="💬", default=True),
+    st.Page(_page_overview, title="Overview", icon="📊"),
     st.Page(_page_data_browser, title="Data Browser", icon="🔍"),
     st.Page(_page_ingestion_manager, title="Ingestion Manager", icon="📥"),
     st.Page(_page_ingestion_traces, title="Ingestion Traces", icon="🔬"),
